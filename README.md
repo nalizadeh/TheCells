@@ -4,8 +4,8 @@ It supports all common Java Swing layouts and also offers a new very powerful ow
 
 
 ```
-It is easy-to-use but powerful, WYSIWYG GUI designer, makes it easy to create professional and complex looking forms. 
-You can drag and drop components, resize components, move components, etc.
+It is easy-to-use but powerful, WYSIWYG GUI designer, makes it easy to create professional and complex 
+looking forms. You can drag and drop components, resize components, move components, etc.
 ```
 
 ![cells1](https://user-images.githubusercontent.com/34987997/72218049-aa4e8480-3536-11ea-80a4-d7af624d3ac0.JPG)
