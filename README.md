@@ -1,13 +1,11 @@
 # TheCells
-TheCells is a Java WYSIWYG UI designer. 
+TheCells is a Java easy-to-use WYSIWYG GUI designer, makes it easy to create professional and complex looking forms
 
 
-It supports all common Java Swing layouts and also offers a new very powerful own layout called 
-CellsLayout. TheCells is easy-to-use but powerful WYSIWYG GUI designer, makes it easy to create 
-professional and complex looking forms. You can drag and drop components, resize and move components.
-
-It is based on the JavaBeans standard. It supports and uses BeanInfos, BeanDescriptors, PropertyDescriptors, 
-PropertyEditors (incl. custom and paintable editors), Introspector, etc. 
+It supports all common Java Swing layouts and also offers a new very powerful own layout called **CellsLayout**.
+You can drag and drop components, resize and move components. It is based on the JavaBeans standard. 
+It supports and uses BeanInfos, BeanDescriptors, PropertyDescriptors, PropertyEditors (incl. custom and paintable editors), 
+Introspector, etc. 
 
 
 ![cells1](https://user-images.githubusercontent.com/34987997/72218049-aa4e8480-3536-11ea-80a4-d7af624d3ac0.JPG)
