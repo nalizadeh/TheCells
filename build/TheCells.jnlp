@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<jnlp spec="1.0+"
+      codebase="http://www.nalizadeh.com"
+      href="TheCells.jnlp">
+   <information> 
+      <title>The Cells</title> 
+      <vendor>nalizadeh.com</vendor>
+      <homepage href="http://www.nalizadeh.com"/>
+      <description>The Cells</description>
+      <description kind="short">Swing Gui Designer</description>
+      <icon href="images/mg.jpg"/>
+      <offline-allowed/> 
+   </information> 
+   <security>
+      <all-permissions/>
+   </security>
+   <resources>
+      <j2se version="1.7+"/>
+      <jar href="TheCells.jar" main="true" download="eager"/>
+   </resources>
+   <application-desc main-class="original.designer.CellsDesigner"/>
+</jnlp> 

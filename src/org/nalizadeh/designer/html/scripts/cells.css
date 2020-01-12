@@ -1,0 +1,13 @@
+/* Common */
+body, html, div, ul,li,a  {margin:0; padding:0;}
+body {font-family:arial;font-size:12px;color:#222;margin:0px;line-height:16.0pt;}
+a {text-decoration: none;color: #000;}
+a img {border:none;}
+img {border: 0px;width: 19px;height: 16px;}
+ul {list-style:none;position:relative; z-index:2;top:0px;display:table;border-left:1px solid #c0c0c0;}
+ul li {float:left;}
+ul li a {background:#fff;color:#222;display:block;padding:2px 15px;text-decoration:none;border-right:1px solid #c0c0c0;border-bottom:1px solid #c0c0c0;}
+ul li a.selected  {border-bottom:1px solid #f0f0f0;color:#000;background:#f0f0f0;}
+h1 {display:block;width:600px;margin:0 auto;padding:20px 0;color:#fff;}
+.wstabbedpane {margin:0; background:#fff;padding:0;border:1px solid #c0c0c0;}
+.tab {display:none; margin:4;}

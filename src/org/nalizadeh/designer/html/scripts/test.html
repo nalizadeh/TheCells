@@ -1,0 +1,175 @@
+<html>
+<head><title>position</title>
+<link rel="StyleSheet" href="cells.css" type="text/css"/>
+<script type="text/javascript" src="cells.js"></script>
+<style type="text/css">
+<!--
+body { line-height:16.0pt; }
+-->
+</style>
+</head>
+<body bgcolor="FFFFFF" text="#000000">
+<form action="" method="get">
+<div class="wspanel" id="panel_contentPane" style="position:absolute; left:16px; top:16px; width:873px; height:764px;  z-index:1; background-color:#F0F0F0; border:solid 0px; padding: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+<div class="wslabel" id="label_lbZablstapel" style="position:absolute; left:8px; top:8px; width:162px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Zahlstapel:</div>
+<div class="wstextfield" id="textfield_txZahlstapel"><input type="text" name="txZahlstapel" size="0" maxlength="0" value="" style="position:absolute; left:178px; top:8px; width:88px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wslabel" id="label_lbPosition" style="position:absolute; left:274px; top:8px; width:60px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Position:</div>
+<div class="wstextfield" id="textfield_txPosition"><input type="text" name="txPosition" size="0" maxlength="0" value="" style="position:absolute; left:342px; top:8px; width:60px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wslabel" id="label_lbZahlungsdaten" style="position:absolute; left:8px; top:36px; width:162px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:bold; font-style:normal;color:#000000;">Zahlungsdaten</div>
+<div class="wslabel" id="label_lbKonto" style="position:absolute; left:8px; top:64px; width:162px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Kontonummer:</div>
+<div class="wstextfield" id="textfield_txKonto"><input type="text" name="txKonto" size="0" maxlength="0" value="" style="position:absolute; left:178px; top:64px; width:88px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wslabel" id="label_lbBlz" style="position:absolute; left:274px; top:64px; width:60px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Bankleitzahl:</div>
+<div class="wstextfield" id="textfield_txBlz"><input type="text" name="txBlz" size="0" maxlength="0" value="" style="position:absolute; left:342px; top:64px; width:60px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wslabel" id="label_lbAufgb" style="position:absolute; left:438px; top:64px; width:77px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Auftraggeber:</div>
+<div class="wstextfield" id="textfield_tcAufgb"><input type="text" name="tcAufgb" size="0" maxlength="0" value="" style="position:absolute; left:523px; top:64px; width:342px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wslabel" id="label_lbVerw" style="position:absolute; left:8px; top:92px; width:162px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Verwendungszweck:</div>
+<div class="wstextfield" id="textfield_txVerw"><input type="text" name="txVerw" size="0" maxlength="0" value="" style="position:absolute; left:178px; top:92px; width:687px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wslabel" id="label_lbEzv" style="position:absolute; left:8px; top:120px; width:162px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">EZV-Refererenz-Nr:</div>
+<div class="wstextfield" id="textfield_textfield7"><input type="text" name="textfield7" size="0" maxlength="0" value="" style="position:absolute; left:178px; top:120px; width:88px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wslabel" id="label_lbMeldMash" style="position:absolute; left:8px; top:148px; width:162px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Verarbeitungsmeldungen masch.:</div>
+<div class="wsschrollpane" id="scrollpane_scVerMash" style="border: 0px solid #000; position:absolute; left:178px; top:148px; width:687px; height:76px;  overflow:auto;">
+<div class="wstextarea" id="textarea_taVerMash"><textarea name="taVerMash" cols="0" rows="0" style="position:relative; left:0px; top:0px; width:687px; height:76px; font-family:Monospaced; font-size:13px; font-weight:normal; font-style:normal;"></textarea></div>
+</div>
+<div class="wslabel" id="label_lbMeldMan" style="position:absolute; left:8px; top:232px; width:162px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Verarbeitungsmeldungen man.:</div>
+<div class="wsschrollpane" id="scrollpane_scMeldMan" style="border: 0px solid #000; position:absolute; left:178px; top:232px; width:687px; height:76px;  overflow:auto;">
+<div class="wstextarea" id="textarea_taMeldMan"><textarea name="taMeldMan" cols="0" rows="0" style="position:relative; left:0px; top:0px; width:687px; height:76px; font-family:Monospaced; font-size:13px; font-weight:normal; font-style:normal;"></textarea></div>
+</div>
+<div class="wslabel" id="label_lbZahlbetrag" style="position:absolute; left:8px; top:316px; width:162px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Zahlbetrag:</div>
+<div class="wstextfield" id="textfield_txZahlbetrag"><input type="text" name="txZahlbetrag" size="0" maxlength="0" value="700,00 EUR" style="position:absolute; left:178px; top:316px; width:88px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wslabel" id="label_lbRest" style="position:absolute; left:274px; top:316px; width:60px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Restbetrag:</div>
+<div class="wstextfield" id="textfield_txRest"><input type="text" name="txRest" size="0" maxlength="0" value="" style="position:absolute; left:342px; top:316px; width:88px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wscheckbox" id="checkbox_chAkonto"><input type="checkbox" name="chAkonto" value="true" style="position:absolute; left:438px; top:316px; "><div style="position:absolute; left:458px; top:316px; width:57px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">Akonto</div></div>
+<div class="wslabel" id="label_lbHerkunft" style="position:absolute; left:523px; top:316px; width:60px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Herkunft:</div>
+<div class="wscombobox" id="combobox_coHerkunft"><select name="coHerkunft" size="1" style="position:absolute; left:591px; top:316px; width:274px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></select></div>
+<div class="wslabel" id="label_lbKlaeren" style="position:absolute; left:8px; top:362px; width:162px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:bold; font-style:normal;color:#000000;">Klären</div>
+<div class="wstabbedpane" style="position:absolute; left:8px; top:390px; width:857px; height:333px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">
+<ul>
+<li><a data-tab="Auf TK-Konto" class="tab-view selected" id="li_Auf TK-Konto" style="cursor: hand;">Auf TK-Konto</a></li>
+<li><a data-tab="Auf Vertragskonto  Geschäftspartnerkonto" class="tab-view" id="li_Auf Vertragskonto  Geschäftspartnerkonto" style="cursor: hand;">Auf Vertragskonto  Geschäftspartnerkonto</a></li>
+</ul>
+<div id="tabCtrl">
+<div class="tab default-tab" id="Auf TK-Konto">
+<div class="wspanel" id="panel_tbKlaeren_panel1" style="position:absolute; left:2px; top:25px; width:852px; height:305px;  z-index:1; background-color:#F0F0F0; border:solid 0px; padding: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+<div class="wsschrollpane" id="scrollpane_tbKlaeren_panel1_scrollpane3" style="border: 0px solid #000; position:absolute; left:8px; top:68px; width:836px; height:229px;  overflow:auto;">
+<div class="wstable" id="table_tbKlaeren_panel1_scrollpane3_table1" style="empty-cells:show; border-collapse:collapse;">
+<table border="1" cellspacing="0" cellpadding="0" style="position:relative; left:2px; top:2px; width:834px; height:64px; "
+><tr>
+<td style="height:18px; background:#DDDDDD; font-family:Arial; font-size:11px; font-weight:bold; font-style:normal;">Title 1</td>
+<td style="height:18px; background:#DDDDDD; font-family:Arial; font-size:11px; font-weight:bold; font-style:normal;">Title 2</td>
+<td style="height:18px; background:#DDDDDD; font-family:Arial; font-size:11px; font-weight:bold; font-style:normal;">Title 3</td>
+<td style="height:18px; background:#DDDDDD; font-family:Arial; font-size:11px; font-weight:bold; font-style:normal;">Title 4</td>
+</tr>
+<tr>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+</tr>
+<tr>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+</tr>
+<tr>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+</tr>
+<tr>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="wspanel" id="panel_tbKlaeren_panel1_panel2" style="position:absolute; left:8px; top:8px; width:836px; height:36px;  z-index:1; background-color:#F0F0F0; border:solid 0px; padding: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+<div class="wsbutton" id="button_tbKlaeren_panel1_panel2_button1"><input type="button" name="weiteres TK-Konto klären" value="weiteres TK-Konto klären" onClick="tue etwas!" style="position:absolute; left:8px; top:8px; width:158px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wslabel" id="label_tbKlaeren_panel1_panel2_label15" style="position:absolute; left:202px; top:8px; width:90px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Versicherten-Nr.:</div>
+<div class="wstextfield" id="textfield_tbKlaeren_panel1_panel2_textfield10"><input type="text" name="tbKlaeren_panel1_panel2_textfield10" size="0" maxlength="0" value="" style="position:absolute; left:300px; top:8px; width:128px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wsbutton" id="button_tbKlaeren_panel1_panel2_button2"><input type="button" name="..." value="..." onClick="tue etwas!" style="position:absolute; left:436px; top:8px; width:20px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wsbutton" id="button_tbKlaeren_panel1_panel2_button3"><input type="button" name="..." value="..." onClick="tue etwas!" style="position:absolute; left:464px; top:8px; width:20px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+</div>
+</div>
+</div>
+<div class="tab" id="Auf Vertragskonto  Geschäftspartnerkonto">
+<div class="wspanel" id="panel_tbKlaeren_panel3" style="position:absolute; left:2px; top:25px; width:852px; height:305px;  z-index:1; background-color:#F0F0F0; border:solid 0px; padding: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+<div class="wsschrollpane" id="scrollpane_tbKlaeren_panel3_scrollpane4" style="border: 0px solid #000; position:absolute; left:8px; top:8px; width:836px; height:95px;  overflow:auto;">
+<div class="wstable" id="table_tbKlaeren_panel3_scrollpane4_table2" style="empty-cells:show; border-collapse:collapse;">
+<table border="1" cellspacing="0" cellpadding="0" style="position:relative; left:2px; top:2px; width:834px; height:64px; "
+><tr>
+<td style="height:18px; background:#DDDDDD; font-family:Arial; font-size:11px; font-weight:bold; font-style:normal;">Title 1</td>
+<td style="height:18px; background:#DDDDDD; font-family:Arial; font-size:11px; font-weight:bold; font-style:normal;">Title 2</td>
+<td style="height:18px; background:#DDDDDD; font-family:Arial; font-size:11px; font-weight:bold; font-style:normal;">Title 3</td>
+<td style="height:18px; background:#DDDDDD; font-family:Arial; font-size:11px; font-weight:bold; font-style:normal;">Title 4</td>
+</tr>
+<tr>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+</tr>
+<tr>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+</tr>
+<tr>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+</tr>
+<tr>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+<td style="height:18px; background:#fff; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;">null</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="wslabel" id="label_tbKlaeren_panel3_label16" style="position:absolute; left:8px; top:129px; width:133px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">(Teil-)Betrag:</div>
+<div class="wstextfield" id="textfield_tbKlaeren_panel3_textfield11"><input type="text" name="tbKlaeren_panel3_textfield11" size="0" maxlength="0" value="" style="position:absolute; left:149px; top:129px; width:90px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wspanel" id="panel_tbKlaeren_panel3_panel4" style="position:absolute; left:709px; top:129px; width:135px; height:150px;  z-index:1; background-color:#F0F0F0; border:solid 0px; padding: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+<div class="wsbutton" id="button_tbKlaeren_panel3_panel4_button4"><input type="button" name="Neue Einzelzeile" value="Neue Einzelzeile" onClick="tue etwas!" style="position:absolute; left:2px; top:4px; width:129px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wsbutton" id="button_tbKlaeren_panel3_panel4_button5"><input type="button" name="Lösche Zeile" value="Lösche Zeile" onClick="tue etwas!" style="position:absolute; left:2px; top:28px; width:129px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wsbutton" id="button_tbKlaeren_panel3_panel4_button6"><input type="button" name="Verwerfen" value="Verwerfen" onClick="tue etwas!" style="position:absolute; left:2px; top:52px; width:129px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wsbutton" id="button_tbKlaeren_panel3_panel4_button7"><input type="button" name="Akzeptieren" value="Akzeptieren" onClick="tue etwas!" style="position:absolute; left:2px; top:76px; width:129px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wsbutton" id="button_tbKlaeren_panel3_panel4_button8"><input type="button" name="Akzeptieren & Neu" value="Akzeptieren & Neu" onClick="tue etwas!" style="position:absolute; left:2px; top:100px; width:129px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+</div>
+<div class="wslabel" id="label_tbKlaeren_panel3_label17" style="position:absolute; left:8px; top:175px; width:133px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Arbeitgeberbeitrag</div>
+<div class="wslabel" id="label_tbKlaeren_panel3_label18" style="position:absolute; left:359px; top:175px; width:149px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Versicherungsobjekt</div>
+<div class="wstextfield" id="textfield_tbKlaeren_panel3_textfield12"><input type="text" name="tbKlaeren_panel3_textfield12" size="0" maxlength="0" value="" style="position:absolute; left:516px; top:175px; width:129px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wsbutton" id="button_tbKlaeren_panel3_button9"><input type="button" name="..." value="..." onClick="tue etwas!" style="position:absolute; left:653px; top:175px; width:20px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wsbutton" id="button_tbKlaeren_panel3_button10"><input type="button" name="..." value="..." onClick="tue etwas!" style="position:absolute; left:681px; top:175px; width:20px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wslabel" id="label_tbKlaeren_panel3_label19" style="position:absolute; left:8px; top:203px; width:133px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Abrechnungssatz:</div>
+<div class="wstextfield" id="textfield_tbKlaeren_panel3_textfield13"><input type="text" name="tbKlaeren_panel3_textfield13" size="0" maxlength="0" value="" style="position:absolute; left:149px; top:203px; width:118px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wsbutton" id="button_tbKlaeren_panel3_button11"><input type="button" name="..." value="..." onClick="tue etwas!" style="position:absolute; left:275px; top:203px; width:20px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wsbutton" id="button_tbKlaeren_panel3_button12"><input type="button" name="..." value="..." onClick="tue etwas!" style="position:absolute; left:303px; top:203px; width:20px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wslabel" id="label_tbKlaeren_panel3_label20" style="position:absolute; left:8px; top:231px; width:133px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Beitragsmonat:</div>
+<div class="wstextfield" id="textfield_tbKlaeren_panel3_textfield14"><input type="text" name="tbKlaeren_panel3_textfield14" size="0" maxlength="0" value="" style="position:absolute; left:149px; top:231px; width:90px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wslabel" id="label_tbKlaeren_panel3_label21" style="position:absolute; left:359px; top:231px; width:149px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Geschäftspartnerposition</div>
+<div class="wstextfield" id="textfield_tbKlaeren_panel3_textfield15"><input type="text" name="tbKlaeren_panel3_textfield15" size="0" maxlength="0" value="" style="position:absolute; left:516px; top:231px; width:129px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wsbutton" id="button_tbKlaeren_panel3_button13"><input type="button" name="..." value="..." onClick="tue etwas!" style="position:absolute; left:653px; top:231px; width:20px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wsbutton" id="button_tbKlaeren_panel3_button14"><input type="button" name="..." value="..." onClick="tue etwas!" style="position:absolute; left:681px; top:231px; width:20px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wslabel" id="label_tbKlaeren_panel3_label22" style="position:absolute; left:8px; top:259px; width:133px; height:20px; text-align:left; vertical-align:middle; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;color:#000000;">Rückzahlung Insolvenzgeld:</div>
+<div class="wstextfield" id="textfield_tbKlaeren_panel3_textfield16"><input type="text" name="tbKlaeren_panel3_textfield16" size="0" maxlength="0" value="" style="position:absolute; left:149px; top:259px; width:90px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+</div>
+</div>
+</div>
+<div class="wspanel" id="panel_panel5" style="position:absolute; left:342px; top:335px; width:523px; height:25px;  z-index:1; background-color:#F0F0F0; border:solid 0px; padding: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+<div class="wsbutton" id="button_panel5_button15"><input type="button" name="Fertigstellen" value="Fertigstellen" onClick="tue etwas!" style="position:absolute; left:246px; top:4px; width:91px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wsbutton" id="button_btAusgleichen"><input type="button" name="Ausgleichen" value="Ausgleichen" onClick="tue etwas!" style="position:absolute; left:341px; top:4px; width:89px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+<div class="wsbutton" id="button_btAbbrechen"><input type="button" name="Abbrechen" value="Abbrechen" onClick="tue etwas!" style="position:absolute; left:434px; top:4px; width:85px; height:20px; font-family:Tahoma; font-size:11px; font-weight:normal; font-style:normal;"></div>
+</div>
+</div>
+<script>initTabView();</script>
+
+</form>
+</body>
+</html>
