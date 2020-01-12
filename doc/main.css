@@ -1,0 +1,65 @@
+BODY { FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana }
+
+A { FONT-SIZE: 9pt; FONT-FAMILY: Arial; TEXT-DECORATION: none; }
+A:link { COLOR: gray; }
+A:visited { COLOR: gray; }
+A:active { COLOR: red; }
+A:hover { COLOR: orange; }
+A.IMG, A.IMG:hover {TEXT-DECORATION: none; PADDING:0; MARGIN:0;}
+
+IMG {TEXT-DECORATION: none; BORDER: none; BACKGROUND: none; }
+
+TD {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana
+}
+
+TD.headerrood {
+	FONT-WEIGHT: bold; VERTICAL-ALIGN: top; WIDTH: 84px; COLOR: #ffffff; HEIGHT: 84px; TEXT-ALIGN: center
+}
+
+TD.navigatie_left {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; VERTICAL-ALIGN: top; WIDTH: 168px; CURSOR: pointer; COLOR: #000000; BORDER-BOTTOM: #dddddd 1px solid; FONT-FAMILY: Verdana; HEIGHT: 21px; TEXT-ALIGN: left
+}
+
+TD.navigatie_left_leeg {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; VERTICAL-ALIGN: top; WIDTH: 168px; COLOR: #cc0000; BORDER-BOTTOM: #dddddd 1px solid; FONT-FAMILY: Verdana; HEIGHT: 21px; TEXT-ALIGN: left
+}
+
+TD.navigatie_left_leeg a {
+	COLOR: red;
+}
+
+TD.navigatie_left_leeg a:visited {
+	COLOR: red;
+}
+
+TD.navigatie_left_leeg a:active {
+	COLOR: red;
+}
+
+TD.navigatie_electro {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; VERTICAL-ALIGN: top; WIDTH: 168px; COLOR: #000000; BORDER-BOTTOM: #dddddd 1px solid; FONT-FAMILY: Verdana; HEIGHT: 63px; TEXT-ALIGN: left
+}
+
+TD.navigatie_sub {
+	BORDER-RIGHT: #dddddd 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 11px; VERTICAL-ALIGN: middle; WIDTH: 83px; CURSOR: pointer; COLOR: #000000; FONT-FAMILY: Verdana; HEIGHT: 42px; TEXT-ALIGN: center
+}
+
+TD.navigatie_sub_leeg {
+	BORDER-RIGHT: #dddddd 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 11px; VERTICAL-ALIGN: middle; WIDTH: 83px; cFONT-FAMILY: Verdana; HEIGHT: 42px; TEXT-ALIGN: center
+}
+
+TD.navigatie_sub_leeg a {
+	COLOR: red;
+}
+
+TD.navigatie_sub_leeg a:visited {
+	COLOR: red;
+}
+TD.navigatie_sub_leeg a:active {
+	COLOR: red;
+}
+
+TD.rest {
+	BORDER-RIGHT: #dddddd 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 11px; VERTICAL-ALIGN: top; WIDTH: 169px; COLOR: #000000; BORDER-BOTTOM: #dddddd 1px solid; FONT-FAMILY: Verdana; HEIGHT: 43px; TEXT-ALIGN: left
+}
